@@ -1,0 +1,46 @@
+#left_icon{
+    padding-right: 2px;
+    margin-right: 0px;
+}
+#right_icon{
+    padding-left: 8px;
+}
+#left_icon:hover{
+    color : white;
+    background-color: rgb(211, 207, 207);
+}
+#right_icon:hover{
+    color : white;
+    background-color: rgb(211, 207, 207);
+}
+
+/* .goog-logo-link{
+    display: none;
+} */
+.goog-logo-link {
+    display:none !important;
+ }
+ 
+ .goog-te-gadget {
+    color: transparent !important;
+ }
+ 
+ .goog-te-gadget .goog-te-combo {
+    color: rgb(12, 12, 12) !important;
+ }
+
+/* style={{ display: 'flex', justifyContent: 'center', alignItems: 'center',position:'relative', top:'-43px' }} */
+.news_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* top: -43px; */
+    /* margin-top: -45px; */
+}
+
+/* @media only screen and (max-width: 600px) {
+    .news_card{
+      top: 0px;
+    }
+} */

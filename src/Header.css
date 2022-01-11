@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   
+   a {
+    text-decoration: none;
+    color: white;
+   }
+   a:hover{
+    text-decoration: none;
+    color: white;
+   }
+   li {
+    list-style: none;
+   }
+
+   .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    color: #fff;
+   }
+   .nav-links a {
+    color: #fff;
+   }
+
+   /* LOGO */
+   .logo {
+    font-size: 32px;
+    display: none;
+   }
+   
+   /* NAVBAR MENU */
+   .menu {
+    display: flex;
+    margin-bottom:-15px;
+   }
+
+   /* DROPDOWN MENU */
+   .services {
+    position: relative; 
+   }
+
+   input[type=checkbox]{
+    display: none;
+   } 
+   /*HAMBURGER MENU*/
+   .hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+    position: relative;
+    top: -43px;
+
+   }
+   /* APPLYING MEDIA QUERIES */
+   @media (max-width: 768px) {
+    .navbar{
+        margin-bottom:-60px;
+    }
+    .logo{
+           display: block;
+       }
+   .menu { 
+    display:none;
+    position: absolute;
+    background-color:teal;
+    background-color:#1B1C1D;
+    right: 0;
+    left: 0;
+    /* text-align: center; */
+    padding: 10px 10px;
+    margin-top: -36px;
+    margin-left: -14px;
+    margin-right: -14px;
+    z-index: 1;
+   }
+
+   .menu li + li {
+    margin-top: 12px;
+   }
+   input[type=checkbox]:checked ~ .menu{
+    display: block;
+   }
+   .hamburger {
+    display: block;
+   }
+   /* .dropdown {
+    left: 50%;
+    top: 30px;
+    transform: translateX(35%);
+   }
+   .dropdown li:hover {
+    background-color: #4c9e9e;
+   } */
+   }
