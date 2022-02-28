@@ -14,9 +14,6 @@
     background-color: rgb(211, 207, 207);
 }
 
-/* .goog-logo-link{
-    display: none;
-} */
 .goog-logo-link {
     display:none !important;
  }
@@ -29,18 +26,9 @@
     color: rgb(12, 12, 12) !important;
  }
 
-/* style={{ display: 'flex', justifyContent: 'center', alignItems: 'center',position:'relative', top:'-43px' }} */
 .news_card{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    /* top: -43px; */
-    /* margin-top: -45px; */
+    position: relative;    
 }
-
-/* @media only screen and (max-width: 600px) {
-    .news_card{
-      top: 0px;
-    }
-} */

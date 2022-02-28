@@ -21,28 +21,6 @@ const Header = ({ onClickHandler }) => {
     }
 
     
-
-    const respon_fun = ()=>{
-        // const ele = document.querySelector('.menu');
-        // console.log(ele);
-        // console.log("Display : ",ele.style.display);
-        // var temp = window.getComputedStyle(ele).getPropertyValue("display");
-        // console.log("temp : ",temp);
-        // if(temp === 'flex'){
-        //    temp = 'block';
-        // }else if(temp !== 'none'){
-        //     temp = 'none';
-        // }
-    }
-    //     // let ele = document.querySelector('.menu');
-    //     // if(ele.style.display === 'none'){
-    //     //     ele.style.display = 'block';
-    //     // }else{
-    //     //     ele.style.display = 'none';
-    //     // }
-        // console.log('Toggle');
-    // })
-
     return (<>
         <header>
           

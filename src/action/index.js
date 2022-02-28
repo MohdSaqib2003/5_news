@@ -1,7 +1,6 @@
 import Fetch_News_API from "../API/FetchNews";
 
 const FetchNews = val => async dispatch => {
-    // console.log('action',val);
     const data = await Fetch_News_API.get('', {
         params: {
             category: val,

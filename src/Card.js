@@ -84,20 +84,6 @@ const Card = (props) => {
     })
 
 
-
-
-    // document.addEventListener('keydown', function(e) {
-    //     switch (e.keyCode) {
-    //         case 37:
-    //             changeToLeft();
-    //             break;
-    //         case 39:
-    //             changeToRight();
-    //             break;
-    //     }
-    // });
-
-
     return (
         <div>
             <div id="translate"></div>
